@@ -1,0 +1,15 @@
+// ltl-blake2/main.ltl
+//
+// BLAKE2b / BLAKE2s keyed-hash implementation.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-blake2 v0.1.0")
+    io::println("BLAKE2b / BLAKE2s keyed-hash implementation.")
+    0
+}
